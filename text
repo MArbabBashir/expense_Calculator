@@ -15,3 +15,9 @@ git config --globals user.email"m.arbab.bashir@gmail.com"
 gh auth login
 
 git add .
+git commit -m "added textgit"
+
+
+gh repo create --public --source=. --remote=origin --push
+git push -u origin main
+git push
