@@ -1,0 +1,17 @@
+gh auth login
+
+
+git push -u origin main
+
+
+
+git branch -M main
+
+new repository push to github
+git config --list
+git config --global user.name "Arbab Bashir"
+git config --globals user.email"m.arbab.bashir@gmail.com"
+
+gh auth login
+
+git add .
