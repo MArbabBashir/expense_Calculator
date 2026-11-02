@@ -12,6 +12,9 @@ git config --list
 git config --global user.name "Arbab Bashir"
 git config --globals user.email"m.arbab.bashir@gmail.com"
 
+git remote add origin https://github.com/USERNAME/REPOSITORY.git
+
+
 gh auth login
 
 git add .
@@ -19,5 +22,7 @@ git commit -m "added textgit"
 
 
 gh repo create --public --source=. --remote=origin --push
+gh repo create Artificial_Intelligence_Blog_CMS --public --source=. --remote=origin --push
+
 git push -u origin main
 git push
